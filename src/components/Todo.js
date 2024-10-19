@@ -32,7 +32,7 @@ const Todo = () => {
         />
 
         <button className="submit" onClick={handleSubmit}>
-          Submit
+          Add Todo
         </button>
         <ol className="todos-list">
           {todos.map(({ text, id }) => (
